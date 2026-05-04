@@ -38,7 +38,7 @@ ExecStart=${BOT_DIR}/venv/bin/python ${BOT_DIR}/bot.py
 Restart=always
 RestartSec=5
 
-# лимиты (чтобы ffmpeg не убивал сервер)
+#лимиты (чтобы ffmpeg не убивал сервер)
 LimitNOFILE=65535
 
 [Install]
